@@ -10,21 +10,21 @@ import Footer from './components/Footer'
 function App() {
   const testimonials = [
     {
-      image: '/step1.png',
+      image: 'step1.png',
       name: 'Alice Johnson',
       email: 'alice@example.com',
       comment:
         'Super is one of the fastest ways to create a website. Being built on top of Notion reduces friction and allows you to update the content on your website effortlessly.'
     },
     {
-      image: '/step1.png',
+      image: 'step1.png',
       name: 'Bob Smith',
       email: 'bob@example.com',
       comment:
         'Super makes it dead simple to create beautiful websites with Notion powering your content. Simply update your Notion doc, and the changes appear live on your site like magic.'
     },
     {
-      image: '/step1.png',
+      image: 'step1.png',
       name: 'Clara Lee',
       email: 'clara@example.com',
       comment:
@@ -32,21 +32,21 @@ function App() {
     },
  
     {
-    image: '/step1.png',
+    image: 'step1.png',
     name: 'James',
     email: '@jmckinven',
     comment:
       'With Super, I can spin up quick, beautiful, effective websites in minutes! Bloody brilliant. I can make changes in seconds and it will be live on my site without me having to touch a thing.'
   },
   {
-    image: '/step1.png',
+    image: 'step1.png',
     name: 'Yusuf',
     email: '@yusufgiftworks',
     comment:
       "With Super, editing content is a breeze because it's all in Notion, and you never have to worry about uptime, security, scaling... In other words, Super is a game-changer!"
   },
   {
-    image: '/step1.png',
+    image: 'step1.png',
     name: 'Karl',
     email: '@ClemensWasner',
     comment:

@@ -41,7 +41,7 @@ const Body1 = () => {
           <img src="team3.png" alt="team3" className="h-10" />
           <img src="team4.png" alt="team4" className="h-10" />
         </div>
-        <img src="/team5.png" alt="team5" className="h-12" />
+        <img src="team5.png" alt="team5" className="h-12" />
       </div>
     </div>
   );
