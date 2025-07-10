@@ -20,9 +20,9 @@ const Body1 = () => {
 
 
       <div className="flex flex-wrap justify-center items-center mt-12 gap-6">
-        <img src="/notion1.png" alt="From Notion" className="h-60" />
-        <img src="/arrow.png" alt="Arrow" className="h-8 w-10 mt-10" />
-        <img src="/notion2.png" alt="To Super Site" className="h-60" />
+        <img src="notion1.png" alt="From Notion" className="h-60" />
+        <img src="arrow.png" alt="Arrow" className="h-8 w-10 mt-10" />
+        <img src="notion2.png" alt="To Super Site" className="h-60" />
       </div>
 
 
