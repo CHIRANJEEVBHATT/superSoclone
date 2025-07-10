@@ -1,12 +1,114 @@
-# React + Vite
+# Super.so Clone (Frontend Only)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend-only clone of the website [Super.so](https://super.so), built using React and styled with Tailwind CSS. It is intended for practicing modern frontend development and creating a responsive, interactive UI without using any backend services.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Website
 
-## Expanding the ESLint configuration
+Visit the deployed version of this project here:  
+https://CHIRANJEEVBHATT.github.io/superoClone
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Sticky navigation header
+- Section-based layout with reusable components
+- Floating button at bottom-right corner
+- Card-based testimonial section built using `.map()`
+- Assets and images managed via the public folder
+- Clean layout using Tailwind CSS utility classes
+- Simple and clean UI structure
+
+---
+
+## Technologies Used
+
+- React (via Create React App)
+- Tailwind CSS
+- GitHub Pages for deployment
+
+---
+
+## Folder Structure
+
+superSoclone/
+├── public/
+│ └── notion.png, user images, logo, etc.
+├── src/
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ ├── Footer.jsx
+│ │ ├── Body1.jsx
+│ │ ├── Body2.jsx
+│ │ ├── Body3.jsx
+│ │ ├── Body4.jsx
+│ │ └── ...
+│ ├── App.js
+│ └── index.js
+├── tailwind.config.js
+├── postcss.config.js
+└── package.json
+
+
+
+## Getting Started Locally
+
+Follow the steps below to run this project locally:
+
+1. Clone the repository
+
+git clone https://github.com/CHIRANJEEVBHATT/superSoclone.git
+cd superSoclone
+
+
+2. Install all dependencies
+
+npm install
+
+3. Start the development server
+
+npm start
+
+
+This will launch the app at `http://localhost:3000`.
+
+---
+
+## GitHub Pages Deployment Guide
+
+1. Add the following `homepage` in your `package.json` file:
+
+```json
+"homepage": "https://CHIRANJEEVBHATT.github.io/supersoClone"
+Add these scripts in package.json:
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+Install the gh-pages package:
+
+
+npm install gh-pages --save-dev
+Deploy the app:
+
+
+npm run deploy
+On GitHub, go to the repository → Settings → Pages
+Set the source to the gh-pages branch and root folder.
+
+Your site will now be live at:
+https://CHIRANJEEVBHATT.github.io/supersoClone
+
+Screenshot
+You can add a screenshot of the project UI by placing an image (e.g. screenshot.png) inside the public folder and referencing it here:
+
+
+![UI Screenshot](./public/screenshot.png)
+License & Disclaimer
+This project is made purely for learning and educational purposes. It is not affiliated with or endorsed by Super.so. All copyrights and trademarks belong to their respective owners.
+
+Contact
+If you want to suggest improvements or ask anything related to this project, feel free to raise an issue in the GitHub repository.
+
+
